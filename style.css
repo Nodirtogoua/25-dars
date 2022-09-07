@@ -163,7 +163,6 @@ nav{
     padding-left: 20px;
     padding-top: 210px;
 }
-
 /* two */
 .service__two{
     max-width: 270px;
@@ -229,3 +228,63 @@ nav{
     padding-top: 210px;
 }
 
+.number-part{
+    margin-top: 30px;
+    max-width: 1400px;
+    width: 100%;
+    height: 500px;
+    background: url(7589.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.number-part__cont{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.number-part__cont h2{
+    padding-top: 60px;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.20454545319080353px;
+    text-align: left;
+    color: white;
+}
+.number-part__cont p{
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.20454545319080353px;
+    text-align: left;
+    color: white;
+}
+
+
+.raqamlar{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.bir{
+    margin-top: 30px;
+    max-width: 200px;
+    width: 100%;
+    height: 200px;
+    background-color: #ed8534;
+}
+.bir h2{
+    font-size: 100px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.bir p{
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
