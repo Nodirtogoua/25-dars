@@ -14,9 +14,15 @@
     margin: 0 auto;
 }
 
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
 nav{
     max-width: 1200px;
     width: 100%;
+    height: 105px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -39,7 +45,7 @@ nav{
     transition: ease 0.4s;
 }
 .link-box{
-    margin-left: 140px;
+    margin-left: 90px;
     display: flex;
     gap: 30px;
 }
@@ -57,6 +63,8 @@ nav{
     padding-bottom: 5px;
 }
 
+
+
 .hero{
     max-width: 1400px;
     width: 100%;
@@ -64,16 +72,160 @@ nav{
     background: url(architecture-gf0bd132f8_1920\ 1.png);
     background-repeat: no-repeat;
     background-size: contain;
+    opacity: 0.9;
 }
 .hero h2{
+    padding-top: 220px;
     max-width: 650px;
     font-family: Montserrat;
     font-size: 50px;
     font-weight: 700;
-    line-height: 78px;
+    line-height: 60px;
     letter-spacing: 0em;
     text-align: left;
-    padding-top: 200px;
-    color: white;
-    margin-left: 100px;
+    color: #ffffff;
 }
+.tht{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 50px auto auto auto;
+}
+.tht h2{
+    cursor: pointer;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 78px;
+    text-transform: uppercase;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.tht p{
+    cursor: pointer;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #666666;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    gap: 10px;
+    transition: ease 0.5s;
+}
+.tht span{
+    font-size: 25px;
+    color: #666666;
+    transition: ease 0.5s;
+}
+.tht p:hover{
+    color: red;
+    transition: ease 0.5s;
+}
+.tht p:hover > span{
+    color: red;
+    transition: ease 0.5s;
+}
+
+.service{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* one */
+.service__one{
+    max-width: 270px;
+    width: 100%;
+    height: 300px;
+    background: url(painting-a-deck-vs-staining\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.service__one p{
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    padding-left: 20px;
+    padding-top: 210px;
+}
+
+/* two */
+.service__two{
+    max-width: 270px;
+    width: 100%;
+    height: 300px;
+    background: url(exterior-house-painting-in-winter\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.service__two p{
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    padding-left: 20px;
+    padding-top: 210px;
+    max-width: 150px;
+}
+
+/* three */
+.service__three{
+    max-width: 270px;
+    width: 100%;
+    height: 300px;
+    background: url(Untitled-1\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.service__three p{
+    max-width: 150px;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    padding-left: 20px;
+    padding-top: 210px;
+}
+
+/* four */
+.service__four{
+    max-width: 270px;
+    width: 100%;
+    height: 300px;
+    background: url(clean-garage-178594527-ed57fd7843ba42f59bb637cf7cf5d47d\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.service__four p{
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    padding-left: 20px;
+    padding-top: 210px;
+}
+
