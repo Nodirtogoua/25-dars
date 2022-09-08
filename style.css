@@ -288,3 +288,34 @@ nav{
     padding-left: 20px;
     padding-top: 30px;
 }
+
+.double-images{
+    margin-top: 50px;
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.double-images img{
+    max-width: 680px;
+    width: 100%;
+}
+.cont{
+    max-width: 60px;
+    width: 100%;
+    margin: 38px auto auto auto;
+}
+.dots{
+    display: flex;
+    gap: 7px;
+}
+.dots span{
+    color: #c4c4c4;
+    font-size: 10px;
+    transition: ease 0.5s;
+}
+.fa-circle:hover{
+    color: #ed8534;
+    transition: ease 0.5s;
+}
