@@ -69,7 +69,8 @@ nav{
     max-width: 1400px;
     width: 100%;
     height: 700px;
-    background: url(architecture-gf0bd132f8_1920\ 1.png);
+    background: url(architecture-gf0bd132f8_1920\ 1.png) rgba(0, 0, 0, 0);
+    background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: contain;
     opacity: 0.9;
@@ -318,4 +319,116 @@ nav{
 .fa-circle:hover{
     color: #ed8534;
     transition: ease 0.5s;
+}
+.input-part{
+    margin-top: 50px;
+    max-width: 1400px;
+    width: 100%;
+    height: 620px;
+    background: url(Rectangle\ 38.png)rgba(116, 109, 109, 0.7);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.input-part h1{
+    padding-top: 15px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+.input-part__cont{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.birinchi-qism{
+    max-width: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.birinchi-qism h2{
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: -0.20454545319080353px;
+    text-align: left;
+    color: white;
+}   
+.birinchi-qism p{
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -0.20454545319080353px;
+    text-align: left;
+    color: white;
+    padding-bottom: 20px;
+}
+.birinchi-qism input{
+    max-width: 450px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.birinchi-qism textarea{
+    max-width: 450px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 16px;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+.birinchi-qism .btn{
+    max-width: 180px;
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ed8534;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    transition: ease 0.5s;
+}
+.btn:hover{
+    color: #ed8534;
+    font-weight: 600;
+    background-color: white;
+    border: 5px solid #ed8534;
+    transition: ease 0.5s;
+}
+
+.ikkinchi-qism h2{
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: -0.20454545319080353px;
+    text-align: left;
+    color: white;
+}  
+.ikkinchi-qism img{
+    max-width: 550px;
+    width: 100%;
 }
